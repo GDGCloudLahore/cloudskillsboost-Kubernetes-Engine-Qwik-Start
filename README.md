@@ -3,7 +3,8 @@
 ## Manage Containerized Apps with Kubernetes Engine
 
 ### What you will learn?
-you will learn how to deploy a containerized application with GKE in less than 30 minutes. 
+
+you will learn how to deploy a containerized application with GKE in less than 30 minutes.  
 Follow the steps below to set up your lab environment.
 
 ### Set a default compute zone
