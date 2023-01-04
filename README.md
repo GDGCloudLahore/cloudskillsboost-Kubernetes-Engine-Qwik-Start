@@ -8,6 +8,7 @@ Follow the steps below to set up your lab environment.
 
 ### Set a default compute zone
 ---------------------TASK = 1 ---------------------------
+
 **Set the default compute region,**
 ```
 gcloud config set compute/region us-east4
