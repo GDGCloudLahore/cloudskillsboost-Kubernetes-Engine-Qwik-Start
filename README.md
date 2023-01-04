@@ -17,6 +17,7 @@ gcloud config set compute/zone us-east4-b
 
 ### Create a GKE cluster
 ---------------------TASK = 2 ---------------------------
+
 **Create a cluster**
 ```
 gcloud container clusters create --machine-type=e2-medium --zone=us-east4-b lab-cluster 
@@ -26,6 +27,7 @@ gcloud container clusters create --machine-type=e2-medium --zone=us-east4-b lab-
 
 ### Get authentication credentials for the cluster
 ---------------------TASK = 3 ---------------------------
+
 **Authenticate with the cluster:**
 ```
 gcloud container clusters get-credentials lab-cluster 
