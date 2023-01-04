@@ -3,7 +3,6 @@
 ## Manage Containerized Apps with Kubernetes Engine
 
 ### What you will learn?
-
 you will learn how to deploy a containerized application with GKE in less than 30 minutes.  
 Follow the steps below to set up your lab environment.
 
@@ -14,7 +13,6 @@ Follow the steps below to set up your lab environment.
 gcloud config set compute/region us-east4
 gcloud config set compute/zone us-east4-b
 ```
-
 
 ### Create a GKE cluster
 ---------------------TASK = 2 ---------------------------
@@ -55,9 +53,8 @@ http://[EXTERNAL-IP]:8080
 
 0 / 25
 
-
 ### Clean up: Delete the cluster
----------------------TASK = 1---------------------------
+---------------------TASK = 5---------------------------
 ```
 gcloud container clusters delete lab-cluster 
 ```
